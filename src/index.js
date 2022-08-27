@@ -27,7 +27,7 @@ function component() {
 	const element = document.createElement("div");
 	const btn = document.createElement("button");
 
-	element.innerHTML = _.join(["Hello", "webpack."], " ");
+	element.innerHTML = _.join(["Hello", "webpack.", "And", "Hello", "to", "the", "World!"], " ");
 	element.classList.add("hello");
 
 	const element2 = document.createElement("div");
