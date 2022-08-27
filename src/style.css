@@ -1,5 +1,17 @@
-.hello {
-	color: blue;
+@font-face {
+	font-family: "Anek Telugu";
+	src: url("./font1.ttf");
+	font-weight: 600;
+	font-style: normal;
+}
+
+body {
 	background: url("./wtf.png");
 	height: 100vh;
+	color: red;
+	font-size: 30px;
+	font-weight: 900;
+}
+.hello {
+	font-family: "Anek Telugu";
 }

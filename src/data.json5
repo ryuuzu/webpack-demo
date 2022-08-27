@@ -1,0 +1,11 @@
+{
+	// comment
+	title: "JSON5 Example",
+	owner: {
+		name: "Utsav Gurmachhan Magar",
+		organization: "GurHub",
+		bio: "GurHub Founder & CEO\n\
+Likes GAMESSSS",
+		dob: "2002-05-22T22:55:00.000Z",
+	},
+}
