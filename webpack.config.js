@@ -2,6 +2,7 @@ const path = require("path");
 const toml = require("toml");
 const yaml = require("yamljs");
 const json5 = require("json5");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
 	entry: {
@@ -9,9 +10,15 @@ module.exports = {
 		print: "./src/print.js",
 		myName: "./src/myName.js",
 	},
+	plugins: [
+		new HtmlWebpackPlugin({
+			title: "Output Management",
+		}),
+	],
 	output: {
 		filename: "[name].bundle.js",
 		path: path.resolve(__dirname, "dist"),
+		clean: true,
 	},
 	module: {
 		rules: [
