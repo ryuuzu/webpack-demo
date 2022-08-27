@@ -1,4 +1,5 @@
 # Knowledge Check
+
 - Explain what npm is and where it was commonly used before being adopted on the frontend.
 
 `npm` or `node package manager` is a tool used to install and share node packages to implement in one's progam or even package.
@@ -10,6 +11,7 @@
 - Know how to install packages using npm
 
 To install packages using `npm`, the following command can be used.
+
 ```shell
 npm install <package_name>
 ```
