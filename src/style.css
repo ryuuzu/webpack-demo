@@ -1,3 +1,5 @@
 .hello {
-    color: blue;
+	color: blue;
+	background: url("./wtf.png");
+	height: 100vh;
 }
